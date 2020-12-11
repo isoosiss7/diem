@@ -4,6 +4,7 @@ name: Post-land Test
 on:
   push:
     branches:
+      - canary
       - 'release**'
 
 jobs:
